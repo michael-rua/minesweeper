@@ -6,7 +6,7 @@ var board = { // creating our board
     {
       row: 0, 
       col: 0, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -14,7 +14,7 @@ var board = { // creating our board
     {
       row: 0, 
       col: 1, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -22,7 +22,7 @@ var board = { // creating our board
     {
       row: 0,
       col: 2, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -30,7 +30,7 @@ var board = { // creating our board
     {
       row: 0,
       col: 3, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -38,7 +38,7 @@ var board = { // creating our board
     {
       row: 1, 
       col: 0, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -46,7 +46,7 @@ var board = { // creating our board
     {
       row: 1, 
       col: 1, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -54,7 +54,7 @@ var board = { // creating our board
     {
       row: 1, 
       col: 2, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -62,7 +62,7 @@ var board = { // creating our board
     {
       row: 1,
       col: 3, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -70,7 +70,7 @@ var board = { // creating our board
     {
       row: 2, 
       col: 0, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -78,7 +78,7 @@ var board = { // creating our board
     {
       row: 2, 
       col: 1, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -86,7 +86,7 @@ var board = { // creating our board
     {
       row: 2,
       col: 2, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -94,7 +94,7 @@ var board = { // creating our board
     {
       row: 2,
       col: 3, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -102,7 +102,7 @@ var board = { // creating our board
     {
       row: 3,
       col: 0, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -110,7 +110,7 @@ var board = { // creating our board
     {
       row: 3,
       col: 1, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -118,7 +118,7 @@ var board = { // creating our board
     {
       row: 3,
       col: 2, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -126,7 +126,7 @@ var board = { // creating our board
     {
       row: 3,
       col: 3, 
-      isMine: (Math.random() < 0.3),
+      isMine: (Math.random() < 0.35),
       isMarked: false,
       hidden: true,
       surroundingMines: 0
