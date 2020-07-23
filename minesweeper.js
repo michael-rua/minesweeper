@@ -93,10 +93,9 @@ function startGame () {
   lib.initBoard()
 }
 
-// Define this function to look for a win condition:
-//
-// 1. Are all of the cells that are NOT mines visible?
-// 2. Are all of the mines marked?
+// This function looks for look for a win condition:
+// I have it setup that you are only a winner if mines are marked and if not a mine its visible.
+
 function checkForWin () {
   
   for (var i = 0; i < board.cells.length; i++) { 
@@ -108,7 +107,7 @@ function checkForWin () {
   }
   lib.displayMessage('You are a Winner!')
 }
-// I have it saetup that you are only a winner if mines are marked and if not a mine you are visible.
+
   
 
   // You can use this function call to declare a winner (once you've
@@ -138,4 +137,10 @@ function countSurroundingMines (cell) {
   
 }
 
+function reset() {
+window.location.reload(true);
 
+}
+
+// create a board reset button. 
+// I want to reload the page as a system to reset the board
