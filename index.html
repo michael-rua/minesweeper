@@ -8,10 +8,20 @@
     <script src="minesweeper.js"></script>
   </head>
   <body>
-    
+    <h1>Minesweeper</h1>
     <div id="message"></div>
     <div id="notes"></div>
+    <h2 id="mines">Total Mines:</h2>
     <div class="board"></div>
-    <button onclick="reset()">Reset</button>
+    <label for="boardSize">Choose a Board size!</label>
+    <select name="boardSize" id="boardSize">
+      <option value="3">Easy</option>
+      <option value="4" selected>Medium</option>
+      <option value="5">Hard</option>
+      <option value="6">Crazy!</option>
+    </select>
+
+    <button onclick="reset()">Start/Reset</button>
+    
   </body>
 </html>
